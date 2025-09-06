@@ -45,27 +45,31 @@ This repository contains an emotion recognition system that combines:
 ## Installation
 
 Clone the repository and install dependencies:
-
+```bash
 git clone https://github.com/yourusername/emotion-recognition-ai.git
 cd emotion-recognition-ai
 pip install -r requirements.txt
-
+```
 ---
 
 ## Usage
 
 1. Preprocess the FER2013 dataset  
+```bash
    python src/data_prep.py  
-
-2. Train the CNN model  
+```
+2. Train the CNN model
+   ```bash
    python src/train_display.py --mode train  
-
-3. Run real-time emotion detection  
+   ```
+3. Run real-time emotion detection
+   ```bash  
    python src/train_display.py --mode display  
-
-4. Run Connect Four AI  
+   ```
+4. Run Connect Four AI
+   ```bash  
    python ConnectFourAI.py  
-
+   ```
 ---
 
 ## Model Performance

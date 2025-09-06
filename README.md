@@ -11,6 +11,7 @@ This repository contains an emotion recognition system that combines:
 
 ## Repository Structure
 
+```plaintext
 .
 ├── src/                  # Data preprocessing & training scripts
 │   ├── data_prep.py      # Convert FER2013 CSV to structured dataset
@@ -28,7 +29,7 @@ This repository contains an emotion recognition system that combines:
 ├── fer2013.csv           # Dataset file (not included, download separately)
 ├── requirements.txt      # Python dependencies
 └── README.md
-
+```
 ---
 
 ## Features

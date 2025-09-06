@@ -33,9 +33,9 @@ pip install -r requirements.txt
 ## Usage
 
 1. Preprocess the FER2013 dataset  
-```bash
+   ```bash
    python src/data_prep.py  
-```
+   ```
 2. Train the CNN model
    ```bash
    python src/train_display.py --mode train  

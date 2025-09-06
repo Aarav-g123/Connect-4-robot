@@ -54,8 +54,6 @@ pip install -r requirements.txt
 
 Training performance is visualized here:
 
-- Left graph: Model accuracy over epochs  
-- Right graph: Model loss over epochs  
 ![Model Performance](imgs/accuracy.png)
 ---
 

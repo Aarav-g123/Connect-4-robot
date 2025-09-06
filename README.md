@@ -56,7 +56,7 @@ Training performance is visualized here:
 
 - Left graph: Model accuracy over epochs  
 - Right graph: Model loss over epochs  
-![Model Performance](imgs/accuracy.jpg)
+![Model Performance](imgs/accuracy.png)
 ---
 
 ## Notes

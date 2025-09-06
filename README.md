@@ -9,28 +9,6 @@ This repository contains an emotion recognition system that combines:
 
 ---
 
-## Repository Structure
-
-```plaintext
-.
-├── src/                  # Data preprocessing & training scripts
-│   ├── data_prep.py      # Convert FER2013 CSV to structured dataset
-│   ├── train_display.py  # CNN training & webcam emotion display
-│
-├── ConnectFourAI.py      # Minimax implementation for Connect Four
-├── haarcascade/          # Haar cascades for face, eye, and smile detection
-│   ├── haarcascade_frontalface_default.xml
-│   ├── haarcascade_eye.xml
-│   ├── haarcascade_smile.xml
-│
-├── imgs/
-│   └── accuracy.png      # Model accuracy (left) and loss (right)
-│
-├── fer2013.csv           # Dataset file (not included, download separately)
-├── requirements.txt      # Python dependencies
-└── README.md
-```
----
 
 ## Features
 
@@ -74,11 +52,11 @@ pip install -r requirements.txt
 
 ## Model Performance
 
-Training performance is visualized in imgs/accuracy.png:
+Training performance is visualized here:
 
 - Left graph: Model accuracy over epochs  
 - Right graph: Model loss over epochs  
-
+![Model Performance](imgs/accuracy.jpg)
 ---
 
 ## Notes
